@@ -4,7 +4,7 @@ import { CSSTransition } from "react-transition-group";
 
 import "./SideDrawer.css";
 
-const SideDrawer = (props) => {
+const Sidedrawer = (props) => {
   const content = (
     <CSSTransition
       in={props.show}
@@ -19,4 +19,4 @@ const SideDrawer = (props) => {
   return ReactDOM.createPortal(content, document.getElementById("drawer-hook"));
 };
 
-export default SideDrawer;
+export default Sidedrawer;
