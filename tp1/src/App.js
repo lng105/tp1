@@ -1,13 +1,17 @@
 import React from 'react';
-import './App.css';
+import {
+  BrowserRouter as Router,
+} from "react-router-dom";
+import MainNav from './Shared/Nav/MainNav';
 
 function App() {
   return (
-    <div className="App">
-      <h1>asdf</h1>
-       
-      
-    </div>
+    <Router>
+        <MainNav />
+        <main>
+
+        </main>
+    </Router>
   );
 }
 
