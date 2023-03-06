@@ -6,10 +6,10 @@ import './NavLinks.css'
 function NavLinks(props){
     return <ul className="nav-links">
     <li>
-        <NavLink to="/">Cours</NavLink>
+        <NavLink to="/Cours">Cours</NavLink>
     </li>
     <li>
-        <NavLink to="/">Professeurs</NavLink>
+        <NavLink to="/Profs">Professeurs</NavLink>
     </li>
     </ul>
 };

@@ -4,6 +4,8 @@ import {
 } from "react-router-dom";
 import MainNav from './Shared/Nav/MainNav';
 import Accueil from './Accueil/Accueil';
+import Cours from './Cours/Cours'
+import Profs from './Professeur/Profs'
 
 function App() {
   return (
@@ -14,11 +16,11 @@ function App() {
             <Route path="/" exact>
               <Accueil />
             </Route>
-            <Route>
-              
+            <Route path="/Cours" exact>
+              <Cours />
             </Route>
-            <Route>
-              
+            <Route path="/Prof">
+              <Profs />
             </Route>
           </Switch>
         </main>
