@@ -7,7 +7,7 @@ function Avatar(props){
             <img
             src={props.image}
             alt={props.alt}
-            style={{ width: props.width, height: props.width}}
+            style={{ width: 200, height: 200}}
             />
         </div>
     )

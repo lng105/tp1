@@ -19,7 +19,7 @@ function App() {
             <Route path="/Cours" exact>
               <Cours />
             </Route>
-            <Route path="/Prof">
+            <Route path="/Profs">
               <Profs />
             </Route>
           </Switch>
