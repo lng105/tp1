@@ -14,7 +14,7 @@ function Accueil(){
                     Page cours: Offre la liste des cours de la session actuelle et filtre la liste de cours des sessions precedente.
                 </li>
                 <li>
-                    Page professeurs: Offre la liste des professeurs enseignant au College.
+                    Page professeurs: Offre la liste des professeurs enseignant au College et offre la creation d'un nouveau prof.
                 </li>
             </ul>
         </p>
