@@ -20,7 +20,7 @@ function NewProf({addresseMethode}){
         };
 
         if(saisiePName === "" || saisieName === ""){
-            alert("Manque un ou plusieurs input")
+            alert("Manque un ou plusieurs inputs")
             return;
         }
         addresseMethode(newProf)

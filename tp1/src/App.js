@@ -4,8 +4,9 @@ import {
 } from "react-router-dom";
 import MainNav from './Shared/Nav/MainNav';
 import Accueil from './Accueil/Accueil';
-import Cours from './Cours/Cours'
+import Cours from './Cour/Cours'
 import Profs from './Professeur/Profs'
+import Inscription from './Inscription/Inscription';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <Route path="/" exact>
               <Accueil />
             </Route>
-            <Route path="/Cours" exact>
+            <Route path="/Cours">
               <Cours />
             </Route>
             <Route path="/Profs">
