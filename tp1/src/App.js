@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
 import MainNav from './Shared/Nav/MainNav';
-import Accueil from './Accueil/Accueil';
-import Cours from './Cour/Cours'
-import Profs from './Professeur/Profs'
-import Inscription from './Cour/Inscription';
+import Accueil from "./Accueil/components/Accueil"
+import Cours from './/Cour/components/Cours'
+import Profs from './Professeur/components/Profs'
+import Inscriptions from './Cour/Inscriptions';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
               <Cours />
             </Route>
             <Route path="/:coursId/Inscription">
-              <Inscription />
+              <Inscriptions />
             </Route>
             <Route path="/Profs">
               <Profs />

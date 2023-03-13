@@ -1,6 +1,6 @@
 import React from "react";
-import Avatar from "../Liste/Avatar";
-import Card from "../Liste/Card";
+import Avatar from "../../Liste/Avatar";
+import Card from "../../Liste/Card";
 import "./Prof.css"
 
 function Prof({ prof }){

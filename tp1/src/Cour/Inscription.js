@@ -1,11 +1,13 @@
 import React from "react";
+import "./Inscription.css"
 
-function Inscription(){
+function Inscription({inscription}){
     return(
-        <h2>
-            asdf
-        </h2>
+        <li className="center-text">
+            <h2>{inscription.prenom} {inscription.nom}</h2>   
+            <h2>{inscription.numAd}</h2>
+        </li>
     )
 }
 
-export default Inscription
+export default Inscription;

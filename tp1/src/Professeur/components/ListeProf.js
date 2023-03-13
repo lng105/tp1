@@ -1,6 +1,6 @@
 import React from "react";
 import Prof from "./Prof";
-import Card from "../Liste/Card"
+import Card from "../../Liste/Card"
 import "./ListeProf.css"
 
 function ListeProf(props){
