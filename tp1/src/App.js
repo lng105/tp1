@@ -6,7 +6,8 @@ import MainNav from './Shared/Nav/MainNav';
 import Accueil from './Accueil/Accueil';
 import Cours from './Cour/Cours'
 import Profs from './Professeur/Profs'
-import Inscription from './Inscription/Inscription';
+import Inscription from './Cour/Inscription';
+
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/Cours">
               <Cours />
+            </Route>
+            <Route path="/:coursId/Inscription">
+              <Inscription />
             </Route>
             <Route path="/Profs">
               <Profs />

@@ -2,11 +2,9 @@ import React from "react";
 
 function Inscription(){
     return(
-        <div>
-            <h2>
-                asdf
-            </h2>
-        </div>
+        <h2>
+            asdf
+        </h2>
     )
 }
 
