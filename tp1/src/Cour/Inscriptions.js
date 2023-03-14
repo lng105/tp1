@@ -6,14 +6,14 @@ function Inscriptions(){
     const [inscriptions, setInscription] =useState([
         {
             id: "e1",
-            prenom: "asdf",
-            nom: "asdf",
+            prenom: "Laurent",
+            nom: "Nguyen",
             numAd: "1",
         },
         {
             id: "e2",
-            prenom: "asdf",
-            nom: "asdf",
+            prenom: "Ricky",
+            nom: "Borby",
             numAd: "2",
         }
     ])

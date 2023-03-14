@@ -4,8 +4,8 @@ import "./Inscription.css"
 function Inscription({inscription}){
     return(
         <li className="center-text">
-            <h2>{inscription.prenom} {inscription.nom}</h2>   
-            <h2>{inscription.numAd}</h2>
+            <h2>Etudiant: {inscription.prenom} {inscription.nom}</h2>   
+            <p>Numero admission: {inscription.numAd}</p>
         </li>
     )
 }

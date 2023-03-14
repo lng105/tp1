@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
-import Sidedrawer from "./Sidedrawer";
+import SideDrawer from "./SideDrawer";
 import Backdrop from "../Backdrop";
 
 import "./MainNav.css";
@@ -21,7 +21,12 @@ function MainNav(props) {
 
   return (
     <React.Fragment>
-      
+        {tiroirOuvert && <Backdrop onClick={fermerTiroir} />}
+        <SideDrawer show={tiroirOuvert} onClick={fermerTiroir}>
+          <nav className="main-navigation__drawer-nav">
+            <NavLinks />
+          </nav>
+        </SideDrawer>
 
       <MainHeader>
         <button className="main-navigation__menu-btn" onClick={ouvrirTiroir}>

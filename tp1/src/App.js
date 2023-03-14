@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router, Route, Switch
+  BrowserRouter as Router, Route, Switch, Redirect
 } from "react-router-dom";
 import MainNav from './Shared/Nav/MainNav';
 import Accueil from "./Accueil/components/Accueil"
@@ -27,6 +27,8 @@ function App() {
             <Route path="/Profs">
               <Profs />
             </Route>
+            <Redirect to="/" />
+
           </Switch>
         </main>
     </Router>

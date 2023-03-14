@@ -14,7 +14,7 @@ function NewInscription({addresseMethode}){
             numAd: saisieNum
         };
 
-        if(saisieNum === setSaisieNum){
+        if(saisieNum === "1" || saisieNum === "2"){
             alert("Numero admission repete");
             return;
         }

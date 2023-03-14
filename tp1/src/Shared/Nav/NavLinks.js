@@ -14,4 +14,4 @@ function NavLinks(props){
     </ul>
 };
 
-export default NavLinks
+export default NavLinks;
